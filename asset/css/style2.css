@@ -1,0 +1,177 @@
+<<<<<<< HEAD
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+*{
+	box-sizing: 
+	border-box;
+	padding: 0;
+	margin: 0;
+}
+
+:root{
+	--heading: font-family: 'Montserrat', sans-serif;
+}
+
+body{
+	font-family: 'Raleway', sans-serif;
+	background: #fff;
+}
+
+/*style global*/
+
+img{
+	width: 100%;
+}
+ul{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	color: #000;
+}
+
+hr{
+	width: 95vw;
+	margin: 0 auto;
+}
+
+/*header*/
+
+.top-head{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 auto;
+	background: #252525;
+	color: #fff;
+	padding: 20px 30px;
+}
+
+.nav-bar{
+	background: #333;
+	height: 0;
+	overflow: hidden;
+}
+
+.show-nav{
+	height: auto;
+}
+
+.nav-bar ul li{
+	text-align: center;
+	display: block;
+	padding: 15px 0;
+	transition: all 1s;
+	ease-in-out
+}
+
+.nav-bar ul li:hover{
+	background: #0e0e0e;
+}
+
+.nav-bar ul li a{
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.nav-bar ul li a:hover{
+	text-decoration: underline;
+}
+
+=======
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+*{
+	box-sizing: 
+	border-box;
+	padding: 0;
+	margin: 0;
+}
+
+:root{
+	--heading: font-family: 'Montserrat', sans-serif;
+}
+
+body{
+	font-family: 'Raleway', sans-serif;
+	background: #fff;
+}
+
+/*style global*/
+
+img{
+	width: 100%;
+}
+ul{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	color: #000;
+}
+
+hr{
+	width: 95vw;
+	margin: 0 auto;
+}
+
+/*header*/
+
+.top-head{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 auto;
+	background: #252525;
+	color: #fff;
+	padding: 20px 30px;
+}
+
+.nav-bar{
+	background: #333;
+	height: 0;
+	overflow: hidden;
+}
+
+.show-nav{
+	height: auto;
+}
+
+.nav-bar ul li{
+	text-align: center;
+	display: block;
+	padding: 15px 0;
+	transition: all 1s;
+	ease-in-out
+}
+
+.nav-bar ul li:hover{
+	background: #0e0e0e;
+}
+
+.nav-bar ul li a{
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.nav-bar ul li a:hover{
+	text-decoration: underline;
+}
+
+>>>>>>> 66c6b7aaf215efc2973b8b5fd9f4d2b87aae40d5
